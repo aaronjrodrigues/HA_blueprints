@@ -140,9 +140,9 @@ blueprint:
       description: |
         The message of the notification.
         You can use variables such as {{camera_name}} and {{label}}
-        e.g., A {{ label }} {{ ' was' if type == 'end' else '' }} detected on the {{ camera_name }} camera.
+        e.g., A {{ label }} {{ ' was' if type == 'end' else '' }}detected on the {{ camera_name }} camera.
 
-      default: "{{ label }} {{ ' was' if type == 'end' else '' }} detected on the {{ camera_name }} camera."
+      default: "{{ label }} {{ ' was' if type == 'end' else '' }}detected on the {{ camera_name }} camera."
       selector:
         select:
           options:
